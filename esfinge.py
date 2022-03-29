@@ -1,4 +1,3 @@
-
 #Las preguntas que te irá haciendo la esfinge corresponden a los print de esta plantilla
 #Por favor completa cada reto
 
@@ -24,18 +23,12 @@ tent = 41.8
 knife = 36
 
 
-
-
-
-
 #Reto 2 - Pon tu respuesta después de cada print
 print("Lista tres objetos del equipamiento: Nombre y valor")
 
 print("shoes", shoes)
 print("water", water)
 print("flashlight", flashlight)
-
-
 
 
 print("¿Puedes combinar elementos de tu equipo para prepararte mejor?")
@@ -47,14 +40,9 @@ print("Bottled water", bottled_water)
 print("Functional flashlight", functional_flashlight)
 
 
-
-
 print("¿El precio del agua en botella es menor al de la linterna funcional?")
 
 print(bottled_water < functional_flashlight)
-
-
-
 
 
 print("¿Cuanto valdría comprar unos snacks y una brujula?")
@@ -62,22 +50,15 @@ print("¿Cuanto valdría comprar unos snacks y una brujula?")
 print(snacks + compass)
 
 
-
-
-
 print("¿Si tienes 100 puntos, te alcanza para comprar unas botas?")
 
 print(shoes <= 100)
-
-
-
 
 
 #Clase 2 Proyecto: Tomando decisiones
 
 #Reto 3 - Pon tu respuesta después del print
 print("La esfinge te dice: No debes colocar más de 5 objetos en tu mochila, y tampoco pasarte de 200 trekjuls: ¿Cuales elementos colocarías?")
-
 
 backpack = 0
 
@@ -93,10 +74,6 @@ else:
     print("ups! ninguno de los intentos fue exitoso")
 
 
-
-
-
-
 #Reto 4 - Pon tu respuesta después del print
 print ("Es tu dia de suerte! Te voy a dar otra mochila, pero solo puedes agregarle agua en botella")
 
@@ -108,9 +85,6 @@ while backpack2 <= 200:
 
 backpack2 -= bottled_water
 print("nos pasamos, restaremos una botella de agua, ahora tenemos:", backpack2)
-
-
-
 
 
 #Clase 3 Proyecto: Almacenando equipamimento
@@ -132,10 +106,6 @@ newBackpack2 = {
 }
 
 
-
-
-
-
 #Reto 5 - Pon tu respuesta después del print
 print("Ahora, en esta aventura te van a acompañar 8 integrantes más, y te voy a pedir que les armes una mochila igual a la tuya y la coloques en el compartimiento de tu vehiculo")
 
@@ -154,11 +124,6 @@ for section in range(7):
 
 for i in car:
     print(i)
-
-
-
-
-
 
 
 #Clase 4 Proyecto: Organizandonos un poco
@@ -199,10 +164,3 @@ def imprimir(structure):
         print(object)
 
 addElements()
-
-
-
-
-
-
-
